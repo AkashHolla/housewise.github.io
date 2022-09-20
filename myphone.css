@@ -1,7 +1,7 @@
 #navbar{
     flex-direction: column;
     height: 70px;
-    width: 100%;
+    width: 108%;
 }
 #navbar ul li{
     font-size: 15px;
@@ -35,8 +35,8 @@
     display: none;
 }
 #section{
-    margin-top: 20px;
-    padding: 0 39px;
+    margin-top: 0;
+    padding: 0px 62px;
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -54,20 +54,24 @@ h1 {
     align-items: center;
     justify-content: center;
     position: absolute;
+    margin: 26px 0 0 -32px;
+    height: 84%;
 }
 #aside img {
-    height: 150px;
-    width: 250px;
+    height: 250px;
+    width: 350px;
     margin-top: 340px;
 }
 #footer {
     background-color: rgb(71, 167, 135);
-    height: 60%;
-    width: 100%;
+    width: 107%;
+    height: 80%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 532px;
+    margin-top: 680px;
     position: absolute;
 }
 .item-1 {
