@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(40, 127, 153);
+    height: 36px;
+    width: 1362px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 900px;
+}
+
+#navbar ul li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+   
+}
+#navlogo{
+    margin: 1px 34px;
+}
+
+#navlogo img{
+    height: 24px;
+    margin: 5px 12px;
+}
+#logo-2 img{
+    height: 29px;
+    margin: 20px 37px;
+}
+#navbar-2{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#navbar-2 ul{
+    display: flex;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 286px;
+}
+
+#navbar-2 ul li{
+    list-style: none;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    padding: 31px;
+   
+}
+#loginlogo img{
+    margin-left: 9px;
+    margin-right: -19px;
+    height: 22px;
+    display: flex;
+    width: 23px;
+    padding: 28px 0px;
+}
+.btn{
+    padding: 4px 10px;
+    border: 2px;
+    background-color: rgb(27, 155, 206);
+    margin-top: 0px;
+    width: 100px;
+    height: 24px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+}
+.container-1{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'section section aside aside'
+    'footer footer footer footer ';
+}
+.item{
+    border: 1px ;
+    padding: 12px 62px;
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
+}
+.btn-2{
+    padding: 4px 10px;
+    border: 2px;
+    background-color: rgb(27, 155, 206);
+    margin: 25px 0px 0 15px;
+    width: 170px;
+    height: 39px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+#aside img{
+    height: 300px;
+    width: 400px;
+}
+#footer{
+background-color: rgb(71, 167, 135);
+height: 140px;
+display: flex;
+}
+.item-1{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    margin: 32px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin-top: 75px;
+}
+#tenant{
+    background-color: transparent;
+    text-decoration: none;
+    margin: 15px 0 0 10px;
+}
+#tenant a{
+    background-color: transparent;
+    color:  rgb(27, 155, 206);
+}
+
+/* citis */
+#pune img{
+    height: 75px;
+    width: 75px;
+}
+#pune p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+    
+}#Bengaluru img{
+    height: 75px;
+    width: 75px;
+}
+#Bengaluru p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    
+}#Hyderabad img{
+    height: 75px;
+    width: 75px;
+}
+#Hyderabad p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    
+}#Gurugram img{
+    height: 75px;
+    width: 75px;
+}
+#Gurugram p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    
+}#Noida img{
+    height: 75px;
+    width: 75px;
+}
+#Noida p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}#Chennai img{
+    height: 75px;
+    width: 75px;
+}
+#Chennai p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    
+}#Delhi img{
+    height: 75px;
+    width: 75px;
+}
+#Delhi p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+    
+}#Mumbai img{
+    height: 75px;
+    width: 75px;
+}
+#Mumbai p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+

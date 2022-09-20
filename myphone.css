@@ -1,0 +1,81 @@
+#navbar{
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+}
+#navbar ul li{
+    font-size: 15px;
+    padding: 0 7px;
+}
+#navbar ul{
+    margin-left: 0;
+}
+#logo-2 img{
+    height: 41px;
+    margin: 44px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#navbar-2{
+    flex-direction: column;
+}
+#navbar-2 ul{
+    margin: 0px;
+    display: none;
+    padding: 5px;
+}
+#navbar-2 ul li{
+    font-size: 11px;
+    display: block;
+    flex-wrap: wrap;
+}
+.btn{
+    display: none;
+}
+#section{
+    margin-top: 20px;
+    padding: 0 39px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+h1 {
+    margin-top: 30px;
+}
+#aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+#aside img {
+    height: 150px;
+    width: 250px;
+    margin-top: 340px;
+}
+#footer {
+    background-color: rgb(71, 167, 135);
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 532px;
+    position: absolute;
+}
+.item-1 {
+    width: 100px;
+    height: 95px;
+    border: 1px;
+    margin: 17px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
